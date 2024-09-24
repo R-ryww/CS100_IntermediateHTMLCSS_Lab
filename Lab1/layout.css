@@ -10,16 +10,21 @@ body {
 
 header, nav, article, div, footer {
     padding: 10px;
-    background-color: yellow;
-    border: 1px solid gray;
+    border: 1px solid rgb(44, 44, 44);
     text-align: center;
 }
 
+nav, article, div {
+    background-color: #879760;
+}
+
 header {
+    background-color: #70823E;
     width: 100%;
 }
 
 footer {
+    background-color: #b9c790;
     width: 100%;
     clear: both;
 }
