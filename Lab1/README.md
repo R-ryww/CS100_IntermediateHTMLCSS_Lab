@@ -39,7 +39,8 @@ This file contains the structure we will style using CSS.
 ### Step 2: Setting Up the CSS File
 - In your code editor, create a new file and name it `layout.css`.
 - In the `<head>` section of `index.html`, link the CSS file:
-```css
+```html
+<link rel="stylesheet" href="layout.css">
 ```
 
 - Write a CSS rule in `layout.css` to perform the following:
@@ -47,6 +48,11 @@ This file contains the structure we will style using CSS.
    - Use the CSS selector that can apply the style to all elements.
    - Set the `box-sizing` property so that padding and border are included in the width and height.
 ```css
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 ```
 
 ---
@@ -54,6 +60,9 @@ This file contains the structure we will style using CSS.
 - Add the following styles to your CSS file under the previous code:
     - Set font family to Arial for better readability.
 ```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 ```
 
 ---
@@ -64,6 +73,12 @@ This file contains the structure we will style using CSS.
     - Add borders as gray color solid lines to separate each section.
     - Center the text in each section.
 ```css
+header, nav, article, div, footer {
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: ;
+}
 ```
 
 ---
@@ -74,6 +89,32 @@ This file contains the structure we will style using CSS.
     - Assign width percentages to each remaining section: 20% for nav and div, and 60% for article. Set a height of these elements to 200px for visualization purposes.
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+article {
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+div {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
 ```
 
 ---
