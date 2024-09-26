@@ -39,6 +39,10 @@ nav ul li {
   margin: 0 15px;
 }
 ```
+nav ul li {
+    display: block;
+    margin: 25px;
+}
 
 ---
 ### Step 2: Modify the Navigation Layout to a Sidebar
