@@ -29,6 +29,9 @@ nav {
     background-color: #ffa41b;
     padding: 20px 0px;
     text-align: center;
+    float: left;
+    width: 20%;
+    height: 100dvh;
 }
 
 nav ul {
@@ -55,6 +58,8 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 main {
+    float: right;
+    width: 77%;
     padding: 20px;
 }
 
